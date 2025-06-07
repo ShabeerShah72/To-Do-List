@@ -22,7 +22,7 @@ A **minimalist, efficient, and user-friendly** To-Do List app built using **Flut
 
 ## 🖼️ Screenshots
 
-| 
+| Screen |
 
 ---
 
@@ -34,38 +34,10 @@ A **minimalist, efficient, and user-friendly** To-Do List app built using **Flut
 - Dart SDK
 - VS Code / Android Studio
 
-  ###Project Structure
-lib/
-├── main.dart            # App entry point, navigation, Home screen
-├── EditTaskPage.dart    # UI & logic for creating/editing tasks
-├── task_model.dart      # Task class with properties (title, notes, date, etc.)
-├── IntroPage.dart       # Optional onboarding/splash screen
-└── assets/              # App icons, fonts, images, etc.
-
-
-### Future Improvements
-Persistent local storage (e.g. Hive, Shared Preferences, SQLite)
-
-Light/Dark mode toggle
-
-Notification/reminder alerts
-
-Task categories and filters
-
-Drag & drop task sorting
-
-###👤 Author
-Shabeer Shah
-🔗 GitHub
-📧 shabeershah.business@gmail.com
-💼 LinkedIn Syed Shabeer Abbas Shah
-
-
 ### 📦 Installation
 
 ```bash
-git clone https://github.com/shabeerShah72/flutter-todo-list-app.git
+git clone https://github.com/ShabeerShah72/flutter-todo-list-app.git
 cd flutter-todo-list-app
 flutter pub get
 flutter run
----
