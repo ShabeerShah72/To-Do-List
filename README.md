@@ -1,42 +1,40 @@
-# 📝 To-Do List App – Flutter
+# ✅ Flutter To-Do List App
 
-A clean, minimal, and efficient To-Do List app built using **Flutter**. It allows users to create, manage, and track their daily tasks with ease.
+A **minimalist, efficient, and user-friendly** To-Do List app built using **Flutter**. Designed to help users manage and organize daily tasks with priority, notes, and reminders—all in a clean, elegant interface.
 
-Designed and developed by **Shabeer Shah**.
+> Designed & developed by **Shabeer Shah**
 
 ---
 
 ## ✨ Features
 
-- 📋 Add, view, and manage your tasks.
-- ✅ Mark tasks as completed (with strikethrough and grey text).
-- 🕓 Due date selection using a **date & time picker**.
-- 🔺 Set task priority (Low / Medium / High).
-- 🗒 Add optional **notes** to each task.
-- 📤 Long-press on any task to reveal an overlay displaying its notes.
-- 🆓 Comes with **default onboarding tasks** that automatically disappear after adding your first custom task.
-- ☑️ Custom-styled round checkbox for cleaner UI.
-- 🔄 Data saved in-memory using model integration (`Task` class).
+- 📋 Add, view, edit, and delete tasks
+- ✅ Mark tasks as completed with stylish **strikethrough + grey text**
+- 📆 Select **due date & time** with an intuitive picker
+- 🔺 Set **task priority** (Low / Medium / High)
+- 🗒 Attach **optional notes** to each task
+- 👆 Long-press a task to view **overlay with notes**
+- 🎯 **Default onboarding tasks** (disappear after first real task is added)
+- 🔘 **Custom round checkbox** UI
+- 🔄 **In-memory storage** using a `Task` model class
 
 ---
 
 ## 🖼️ Screenshots
 
-| Main Screen              | Add/Edit Task Screen        |
-|--------------------------|-----------------------------|
-| ![Main Screen](screenshots/main_screen.png) | ![Edit Screen](screenshots/edit_screen.png) |
+| 
 
 ---
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### ✅ Prerequisites
 
-- Flutter SDK (>=3.0)
-- Dart
-- VSCode
+- Flutter SDK (`>=3.0.0`)
+- Dart SDK
+- VS Code / Android Studio
 
-### Installation
+### 📦 Installation
 
 ```bash
 git clone https://github.com/shabeerShah72/flutter-todo-list-app.git
@@ -44,16 +42,28 @@ cd flutter-todo-list-app
 flutter pub get
 flutter run
 
-Project_Structure
-/lib
-│
-├── main.dart              # Entry point, Home & Navigation logic
-├── EditTaskPage.dart      # Page for creating or editing tasks
-├── task_model.dart        # Task data model
-├── IntroPage.dart         # Optional splash or intro page (if added)
-└── assets/                # App icons, images, etc.
+###Project Structure
+lib/
+├── main.dart            # App entry point, navigation, Home screen
+├── EditTaskPage.dart    # UI & logic for creating/editing tasks
+├── task_model.dart      # Task class with properties (title, notes, date, etc.)
+├── IntroPage.dart       # Optional onboarding/splash screen
+└── assets/              # App icons, fonts, images, etc.
 
-👤 Author
+
+### Future Improvements
+Persistent local storage (e.g. Hive, Shared Preferences, SQLite)
+
+Light/Dark mode toggle
+
+Notification/reminder alerts
+
+Task categories and filters
+
+Drag & drop task sorting
+
+###👤 Author
 Shabeer Shah
-
-If you like this project, feel free to ⭐ the repo or connect on LinkedIn!
+🔗 GitHub
+📧 shabeershah.business@gmail.com
+💼 LinkedIn Syed Shabeer Abbas Shah
