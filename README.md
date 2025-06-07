@@ -1,5 +1,4 @@
-
-[To-Do Cover.png](https://github.com/ShabeerShah72/To-Do-List/blob/a89897f8dcf2b6006cef51a473078968ccec24b9/To-Do%20Cover.png)
+<!-- Uploading "To-Do Cover.png"... -->
 
 # ✅ Flutter To-Do List App
 
@@ -27,7 +26,6 @@ A **minimalist, efficient, and user-friendly** To-Do List app built using **Flut
 
 | Screen |
 
-(https://github.com/ShabeerShah72/To-Do-List/blob/a89897f8dcf2b6006cef51a473078968ccec24b9/To-Do%20Cover.png)
 
 ---
 
